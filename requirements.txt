@@ -1,0 +1,29 @@
+# ── Core LangChain & LLM ─────────────────────────────────────
+langchain==0.3.14
+langchain-community==0.3.14
+langchain-core==0.3.29
+langchain-google-genai==2.0.8
+google-generativeai==0.8.3
+
+# ── Vector Store & Embeddings ────────────────────────────────
+chromadb==0.5.23
+sentence-transformers==3.3.1
+
+# ── Hybrid Retrieval (BM25) ───────────────────────────────────
+rank-bm25==0.2.2
+
+# ── Language Detection ────────────────────────────────────────
+langdetect==1.0.9
+
+# ── Dataset (MedQA from HuggingFace) ──────────────────────────
+datasets==3.2.0
+
+# ── Streamlit UI ──────────────────────────────────────────────
+streamlit==1.41.1
+
+# ── Utilities ──────────────────────────────────────────────────
+python-dotenv==1.0.1
+pydantic==2.10.4
+numpy==1.26.4
+pandas==2.2.3
+Pillow==10.4.0
